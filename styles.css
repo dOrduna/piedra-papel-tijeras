@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    margin: 50px auto;
+}
+
+.col {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    width: 100%;
+}
+
+.choice {
+    width: 130px;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+.option {
+    width: 50px;
+    height: 50px;
+    transition: all .1s ease-in-out;
+    border: 1px solid grey;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.option:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
